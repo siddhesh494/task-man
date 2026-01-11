@@ -35,7 +35,7 @@ export default function Hero() {
   return (
     <section className="hero" id="hero">
       <div className="hero-background">
-        <img src={HeroShapes} alt="Decorative shapes" className="shape-bg shape-right" />
+        <img src={HeroShapes} alt="Decorative shapes" className="shape-bg" />
       </div>
 
       <div className="hero-container">
