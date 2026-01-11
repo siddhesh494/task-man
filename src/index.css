@@ -1,0 +1,32 @@
+/* Global project styles and font settings */
+:root {
+	--font-sans: 'Poppins', ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+html, body, #root {
+	height: 100%;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: var(--font-sans);
+	font-weight: 400;
+	color: #111827;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure form elements inherit the app font */
+input, button, textarea, select {
+	font-family: inherit;
+}
+
+/* Utility: set default heading styles to use Poppins weights */
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-sans);
+	margin: 0;
+}
